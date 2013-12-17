@@ -160,8 +160,7 @@
         <item name="android:windowCloseOnTouchOutside">true</item>
     </style>
 
-    <style name="SettingsLight" parent="@android:style/Theme.Holo.Light">
-        <item name="android:windowBackground">@color/phone_settings_background_color</item>
+    <style name="SettingsDark" parent="@android:style/Theme.Holo">
         <item name="android:actionBarStyle">@style/DialtactsActionBarStyle</item>
     </style>
 
@@ -220,20 +219,20 @@
     </style>
 
     <style name="ContactsActionBarStyle"
-           parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
+           parent="@android:style/Widget.Holo.ActionBar.Solid">
         <item name="android:background">@color/people_app_theme_color</item>
         <item name="android:backgroundStacked">@color/people_app_theme_color</item>
     </style>
 
     <style name="DialtactsActionBarStyle"
-           parent="@android:style/Widget.Holo.Light.ActionBar">
+           parent="@android:style/Widget.Holo.ActionBar">
         <item name="android:background">@color/phone_settings_actionbar_color</item>
         <!-- Empty icon -->
         <item name="android:icon">@android:color/transparent</item>
     </style>
 
     <style name="SimImportTheme"
-           parent="@android:style/Theme.Holo.Light.DarkActionBar">
+           parent="@android:style/Theme.Holo">
         <item name="android:actionBarStyle">@style/ContactsActionBarStyle</item>
     </style>
 
