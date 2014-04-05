@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright (C) 2014 DarkKat
+
+  This program is free software: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published by
+  the Free Software Foundation, either version 2 of the License, or
+  (at your option) any later version.
+
+  This program is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+
+  You should have received a copy of the GNU General Public License
+  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ -->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Blacklist preferences -->
+    <string name="blacklist_title">Blacklist</string>
+    <string name="blacklist_summary_disabled">Deaktiviert</string>
+    <string name="blacklist_summary">Eingehende Anrufe von Nummern auf der Blacklist werden abgewiesen</string>
+
+    <!-- Blacklist notifications -->
+    <string name="blacklist_call_notification">Anruf von %s abgewiesen</string>
+    <string name="blacklist_call_notification_private_number">Anruf von einer privaten Nummer abgewiesen</string>
+    <string name="blacklist_call_notification_unknown_number">Anruf von unbekannter Nummer %s abgewiesen</string>
+    <string name="blacklist_call_notification_multiple"><xliff:g id="count">%d</xliff:g> Anrufe wurden abgewiesen</string>
+    <string name="blacklist_message_notification">Nachricht von %s wurde abgewiesen</string>
+    <string name="blacklist_message_notification_private_number">Nachricht von einer privaten Nummer wurde abgewiesen</string>
+    <string name="blacklist_message_notification_unknown_number">Nachricht von unbekannter Nummer %s wurde abgewiesen</string>
+    <string name="blacklist_message_notification_multiple"><xliff:g id="count">%d</xliff:g> Nachrichten wurden abgewiesen</string>
+    <string name="blacklist_notification_list_private">Privat</string>
+    <string name="unblock_number">Freigeben</string>
+</resources>
