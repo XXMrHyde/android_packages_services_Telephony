@@ -34,4 +34,8 @@
     <string name="blacklist_message_notification_multiple"><xliff:g id="count">%d</xliff:g> Nachrichten wurden abgewiesen</string>
     <string name="blacklist_notification_list_private">Privat</string>
     <string name="unblock_number">Freigeben</string>
+
+    <!-- Non intrusive call ui -->
+    <string name="non_intrusive_incall_title">Zurückhaltender Modus</string>
+    <string name="non_intrusive_incall_summary">Zurückhaltenden Dialog für eingehende Anrufe verwenden</string>
 </resources>
