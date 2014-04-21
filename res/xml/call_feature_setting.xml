@@ -161,6 +161,13 @@
             android:targetClass="com.android.settings.Settings$BlacklistSettingsActivity" />
     </PreferenceScreen>
 
+    <CheckBoxPreference
+        android:key="button_non_intrusive_incall"
+        android:title="@string/non_intrusive_incall_title"
+        android:summary="@string/non_intrusive_incall_summary"
+        android:persistent="false"
+        android:defaultValue="true" />
+
     <PreferenceScreen
         android:key="button_cdma_more_expand_key"
         android:title="@string/labelCDMAMore"
