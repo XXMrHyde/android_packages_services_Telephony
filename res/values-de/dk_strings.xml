@@ -38,4 +38,10 @@
     <!-- Non intrusive call ui -->
     <string name="non_intrusive_incall_title">Zurückhaltender Modus</string>
     <string name="non_intrusive_incall_summary">Zurückhaltenden Dialog für eingehende Anrufe verwenden</string>
+
+    <!-- Integrated phone directory -->
+    <string name="enable_suggestions_title">Vorschläge aktivieren</string>
+    <string name="enable_suggestions_summary">Während der Suche Telefonnummern von Orten in der Nähe vorschlagen</string>
+    <string name="enable_reverse_lookup_title">Rückwärtssuche aktivieren</string>
+    <string name="enable_reverse_lookup_summary">Namen nachschlagen, wenn die Nummer bei eingehenden Anrufen nicht im Telefonbucg steht.</string>
 </resources>
