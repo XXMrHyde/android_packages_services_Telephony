@@ -1642,11 +1642,11 @@ public class CallFeaturesSetting extends PreferenceActivity
 
         mEnableSuggestions = (CheckBoxPreference) findPreference(BUTTON_ENABLE_SUGGESTIONS);
         mEnableSuggestions.setChecked(Settings.System.getInt(getContentResolver(),
-                Settings.System.ENABLE_DIALER_SUGGESTIONS, 1) == 0 ? false : true);
+                Settings.System.ENABLE_DIALER_SUGGESTIONS, 0) == 0 ? false : true);
  
         mEnableReverseLookup = (CheckBoxPreference) findPreference(BUTTON_ENABLE_REVERSE_LOOKUP);
         mEnableReverseLookup.setChecked(Settings.System.getInt(getContentResolver(),
-                Settings.System.ENABLE_DIALER_REVERSE_LOOKUP, 1) == 0 ? false : true);
+                Settings.System.ENABLE_DIALER_REVERSE_LOOKUP, 0) == 0 ? false : true);
 
         // create intent to bring up contact list
         mContactListIntent = new Intent(Intent.ACTION_GET_CONTENT);
