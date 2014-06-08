@@ -166,7 +166,7 @@
         android:title="@string/non_intrusive_incall_title"
         android:summary="@string/non_intrusive_incall_summary"
         android:persistent="false"
-        android:defaultValue="true" />
+        android:defaultValue="false" />
 
     <PreferenceScreen
         android:key="button_cdma_more_expand_key"
