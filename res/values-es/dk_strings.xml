@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright (C) 2014 DarkKat
+
+  This program is free software: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published by
+  the Free Software Foundation, either version 2 of the License, or
+  (at your option) any later version.
+
+  This program is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+
+  You should have received a copy of the GNU General Public License
+  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ -->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Blacklist preferences -->
+    <string name="blacklist_title">Lista negra</string>
+    <string name="blacklist_summary_disabled">Deshabilitada</string>
+    <string name="blacklist_summary">Se bloquearán las llamadas entrantes de los números añadidos a la lista negra</string>
+
+    <!-- Blacklist notifications -->
+    <string name="blacklist_call_notification">Bloqueada una llamada del %s</string>
+    <string name="blacklist_call_notification_private_number">Bloqueada una llamada de un número privado</string>
+    <string name="blacklist_call_notification_unknown_number">Bloqueada una llamada de un número desconocido %s</string>
+    <string name="blacklist_call_notification_multiple"><xliff:g id="count">%d</xliff:g> llamadas han sido bloqueadas</string>
+    <string name="blacklist_message_notification">Bloqueado un mensaje del %s</string>
+    <string name="blacklist_message_notification_private_number">Bloqueado un mensaje de un número privado</string>
+    <string name="blacklist_message_notification_unknown_number">Bloqueado un mensaje de un número desconocido %s</string>
+    <string name="blacklist_message_notification_multiple"><xliff:g id="count">%d</xliff:g> mensajes han sido bloqueados</string>
+    <string name="blacklist_notification_list_private">Privado</string>
+    <string name="unblock_number">Desbloqueado</string>
+
+    <!-- Non intrusive call ui -->
+    <string name="non_intrusive_incall_title">No intrusivo</string>
+    <string name="non_intrusive_incall_summary">Utiliza el diálogo no intrusivo para llamadas entrantes</string>
+
+    <!-- Integrated phone directory -->
+    <string name="enable_suggestions_title">Habilitar sugerencias</string>
+    <string name="enable_suggestions_summary">Sugerir números de teléfonos o lugares cercanos cuando se busca en el marcador</string>
+    <string name="enable_reverse_lookup_title">Habilitar búsqueda inversa</string>
+    <string name="enable_reverse_lookup_summary">Buscar información de la persona o lugares cuando el remitente de la llamada es deconocido</string>
+
+    <!-- Permission for notification-bar network toggle -->
+    <string name="perm_change_mobile_network">Cambiar el modo de red (2G/3G)</string>
+    <string name="perm_change_mobile_network_desc">Permitir que la aplicación cambie entre 2G y 3G en cualquier momento. 3G es más rápido, pero consume más batería y puede causar costes adicionales.</string>
+
+    <!-- My Phone Number field -->
+    <string name="phone_number_label">Mi número de teléfono</string>
+    <string name="phone_number_summary">Establecer mi número de teléfono para este dispositivo</string>
+</resources>
