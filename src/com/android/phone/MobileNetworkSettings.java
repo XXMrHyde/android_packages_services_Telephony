@@ -972,10 +972,9 @@ public class MobileNetworkSettings extends PreferenceActivity
                         android.provider.Settings.Global.PREFERRED_NETWORK_MODE + phoneSubId,
                         networkMode );
 
-                    Intent intent = new Intent(PhoneToggler.ACTION_NETWORK_MODE_CHANGED);
-                    intent.putExtra(PhoneToggler.EXTRA_NETWORK_MODE, networkMode);
-                    mPhone.getContext().sendBroadcast(intent, PhoneToggler.CHANGE_NETWORK_MODE_PERM);
-                }
+                Intent intent = new Intent(PhoneToggler.ACTION_NETWORK_MODE_CHANGED);
+                intent.putExtra(PhoneToggler.EXTRA_NETWORK_MODE, networkMode);
+                mPhone.getContext().sendBroadcast(intent, PhoneToggler.CHANGE_NETWORK_MODE_PERM);
             } else {
                 mPhone.getPreferredNetworkType(obtainMessage(MESSAGE_GET_PREFERRED_NETWORK_TYPE));
             }
