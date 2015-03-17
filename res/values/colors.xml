@@ -32,7 +32,7 @@
     <color name="on_hold_dim_effect">#cc000000</color>
 
     <!-- Used with some smaller texts in manage conference screen. -->
-    <color name="manage_conference_secondary_text_color">#888888</color>
+    <color name="manage_conference_secondary_text_color">#b3ffffff</color>
 
     <!-- Settings screen should use the same colors as the Dialer -->
     <color name="phone_settings_background_color">@*android:color/darkkat_blue_grey</color>

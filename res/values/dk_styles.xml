@@ -19,6 +19,7 @@
         <item name="android:colorBackground">@*android:drawable/darkkat_bg_blue_grey</item>
         <item name="android:windowBackground">@*android:drawable/dialog_background_material</item>
         <item name="android:colorAccent">@color/settings_color_accent</item>
+        <item name="android:textColor">@color/setting_primary_color</item>
     </style>
 
 </resources>
