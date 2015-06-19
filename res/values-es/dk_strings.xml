@@ -18,4 +18,24 @@
     <!-- Permission for notification-bar network toggle -->
     <string name="perm_change_mobile_network">change network mode (2G/3G)</string>
     <string name="perm_change_mobile_network_desc">Allows the app to change between 2G data and 3G data at any time. 3G is faster, but consumes more battery and may cause additional cost.</string>
+
+    <!-- Advanced Settings -->
+    <string name="advanced_setting">Advanced Settings</string> <!-- Needs translation -->
+
+    <!-- Blacklist preferences -->
+    <string name="blacklist_title">Blacklist</string> <!-- Needs translation -->
+    <string name="blacklist_summary_disabled">Disabled</string> <!-- Needs translation -->
+    <string name="blacklist_summary">Incoming calls from phone numbers in the blacklist will be blocked</string> <!-- Needs translation -->
+
+    <!-- Blacklist notifications -->
+    <string name="blacklist_call_notification">Blocked a call from %s</string> <!-- Needs translation -->
+    <string name="blacklist_call_notification_private_number">Blocked a call from a private number</string> <!-- Needs translation -->
+    <string name="blacklist_call_notification_unknown_number">Blocked a call from unknown number %s</string> <!-- Needs translation -->
+    <string name="blacklist_call_notification_multiple"><xliff:g id="count">%d</xliff:g> calls were blocked</string> <!-- Needs translation -->
+    <string name="blacklist_message_notification">Blocked a message from %s</string> <!-- Needs translation -->
+    <string name="blacklist_message_notification_private_number">Blocked a message from a private number</string> <!-- Needs translation -->
+    <string name="blacklist_message_notification_unknown_number">Blocked a message from unknown number %s</string> <!-- Needs translation -->
+    <string name="blacklist_message_notification_multiple"><xliff:g id="count">%d</xliff:g> messages were blocked</string> <!-- Needs translation -->
+    <string name="blacklist_notification_list_private">Private</string> <!-- Needs translation -->
+    <string name="unblock_number">Unblock</string> <!-- Needs translation -->
 </resources>
