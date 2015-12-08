@@ -17,7 +17,7 @@
 <resources xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="phoneAppLabel" product="tablet" msgid="1107073389495104784">"Dados celulares"</string>
-    <string name="phoneAppLabel" product="default" msgid="906161039445636857">"Telefone"</string>
+    <string name="phoneAppLabel" product="default" msgid="6790717591729922998">"Serviços do smartphone"</string>
     <string name="emergencyDialerIconLabel" msgid="7812140032168171053">"Discador de emergência"</string>
     <string name="phoneIconLabel" msgid="2331230813161304895">"Telefone"</string>
     <string name="fdnListLabel" msgid="8630418672279521003">"Lista FDN"</string>
@@ -118,13 +118,16 @@
     <string name="disable_cfnrc_forbidden" msgid="5646361343094064333">"Sua operadora não suporta a desativação do encaminhamento de chamada quando seu telefone não está acessível."</string>
     <string name="updating_title" msgid="6146755386174019046">"Configurações de chamadas"</string>
     <string name="call_settings_primary_user_only" msgid="5679923943740900965">"As configurações de chamada só podem ser alteradas pelo usuário principal."</string>
-    <string name="call_settings_with_label" msgid="89359812614544532">"Config. de chamada (<xliff:g id="SUBSCRIPTIONLABEL">%s</xliff:g>)"</string>
+    <string name="call_settings_with_label" msgid="3401177261468593519">"Configurações (<xliff:g id="SUBSCRIPTIONLABEL">%s</xliff:g>)"</string>
     <string name="error_updating_title" msgid="7970259216988931777">"Erro de configuração da chamada"</string>
     <string name="reading_settings" msgid="1920291699287055284">"Lendo as configurações…"</string>
     <string name="updating_settings" msgid="8171225533884883252">"Atualizando configurações…"</string>
     <string name="reverting_settings" msgid="4752151682666912828">"Revertendo configurações…"</string>
     <string name="response_error" msgid="6674110501330139405">"Resposta inesperada da rede."</string>
     <string name="exception_error" msgid="7027667130619518211">"Erro de rede ou do cartão SIM."</string>
+    <string name="stk_cc_ss_to_dial_error" msgid="2816779198916570502">"Solicitação SS modificada para solicitação DIAL."</string>
+    <string name="stk_cc_ss_to_ussd_error" msgid="7490626178582654236">"Solicitação SS modificada para solicitação USSD."</string>
+    <string name="stk_cc_ss_to_ss_error" msgid="5057846756489053759">"Solicitação SS modificada para nova solicitação SS."</string>
     <string name="fdn_check_failure" msgid="18200614306525434">"A configuração \"Números de chamada fixos\" do app de seu telefone está ativada. Por isso, alguns recursos relacionados a chamadas não funcionam."</string>
     <string name="radio_off_error" msgid="2304459933248513376">"Ligue o rádio antes de ver essas configurações."</string>
     <string name="close_dialog" msgid="2365884406356986917">"OK"</string>
@@ -177,6 +180,7 @@
     <string name="preferred_network_mode_lte_wcdma_summary" msgid="9180775701594742750">"Modo de rede preferencial: LTE / WCDMA"</string>
     <string name="preferred_network_mode_lte_gsm_umts_summary" msgid="633315028976225026">"Modo de rede preferido: LTE/GSM/UMTS"</string>
     <string name="preferred_network_mode_lte_cdma_summary" msgid="3722647806454528426">"Modo de rede preferencial: LTE/CDMA"</string>
+    <string name="preferred_network_mode_tdscdma_summary" msgid="8021016193718678775">"Modo de rede preferencial: TDSCDMA"</string>
   <string-array name="preferred_network_mode_choices">
     <item msgid="7886739962255042385">"LTE/WCDMA"</item>
     <item msgid="577652050447385699">"LTE"</item>
@@ -305,6 +309,7 @@
     <string name="network_lte" msgid="7702681952521375754">"LTE (recomendável)"</string>
     <string name="network_4G" msgid="2723512640529983138">"4G (recomendável)"</string>
     <string name="network_global" msgid="1323190488685355309">"Global"</string>
+    <string name="network_tdscdma" msgid="4713495909689860245">"Somente TDSCDMA"</string>
     <string name="cdma_system_select_title" msgid="5757657769327732833">"Seleção de sistema"</string>
     <string name="cdma_system_select_summary" msgid="60460043745797517">"Alterar o modo de roaming CDMA"</string>
     <string name="cdma_system_select_dialogtitle" msgid="6083355415165359075">"Selecionar sistema"</string>
@@ -347,7 +352,7 @@
     <string name="tty_mode_option_summary" msgid="1073835131534808732">"Definir modo TTD"</string>
     <string name="auto_retry_mode_title" msgid="4073265511427813322">"Repetir automaticamente"</string>
     <string name="auto_retry_mode_summary" msgid="4973886004067532288">"Ativar modo Repetir automaticamente"</string>
-    <string name="tty_mode_not_allowed_video_call" msgid="3795846787901909176">"Não é permitida a alteração do modo TTD durante uma vídeo chamada"</string>
+    <string name="tty_mode_not_allowed_video_call" msgid="3795846787901909176">"Não é permitida a alteração do modo TTD durante uma videochamada"</string>
     <string name="menu_add" msgid="1882023737425114762">"Adicionar contato"</string>
     <string name="menu_edit" msgid="7143003705504672374">"Editar contato"</string>
     <string name="menu_delete" msgid="3977150783449642851">"Excluir contato"</string>
@@ -424,6 +429,7 @@
     <string name="notification_network_selection_text" msgid="2607085729661923269">"A rede selecionada (<xliff:g id="OPERATOR_NAME">%s</xliff:g>) não está disponível"</string>
     <string name="incall_error_power_off" msgid="2947938060513306698">"Desative o modo avião para fazer uma chamada."</string>
     <string name="incall_error_power_off_wfc" msgid="8711428920632416575">"Desative o modo avião ou conecte-se a uma rede sem fio para fazer uma chamada."</string>
+    <string name="incall_error_ecm_emergency_only" msgid="738708660612388692">"Saia do modo de retorno de chamada de emergência para fazer uma chamada que não seja de emergência."</string>
     <string name="incall_error_emergency_only" msgid="4678640422710818317">"Não registrado na rede."</string>
     <string name="incall_error_out_of_service" msgid="4100065333878929223">"Rede celular não disponível."</string>
     <string name="incall_error_out_of_service_wfc" msgid="323851839058697057">"A rede celular não está disponível. Conecte-se a uma rede sem fio para fazer uma chamada."</string>
@@ -454,7 +460,7 @@
     <string name="onscreenManageCallsText" msgid="5473231160123254154">"Gerenciar chamadas"</string>
     <string name="onscreenManageConferenceText" msgid="6485935856534311346">"Gerenciar conferência"</string>
     <string name="onscreenAudioText" msgid="1710087112800041743">"Áudio"</string>
-    <string name="onscreenVideoCallText" msgid="4800924186056115442">"Vídeo ch."</string>
+    <string name="onscreenVideoCallText" msgid="4800924186056115442">"Videocham."</string>
     <string name="importSimEntry" msgid="6614358325359736031">"Importar"</string>
     <string name="importAllSimEntries" msgid="1503181169636198673">"Importar tudo"</string>
     <string name="importingSimContacts" msgid="7374056215462575769">"Importando contatos do SIM"</string>
@@ -533,7 +539,7 @@
     <string name="preference_category_ringtone" msgid="5197960752529332721">"Toque e vibração"</string>
     <string name="pstn_connection_service_label" msgid="1743245930577325900">"Cartões SIM integrados"</string>
     <string name="enable_video_calling_title" msgid="7237253660669000899">"Ativar chamadas de vídeo"</string>
-    <string name="enable_video_calling_dialog_msg" msgid="8948186136957417948">"Para ativar a chamada de vídeo, ative o modo 4G LTE avançado nas configurações de rede."</string>
+    <string name="enable_video_calling_dialog_msg" msgid="8948186136957417948">"Para ativar a videochamada, ative o modo 4G LTE avançado nas configurações de rede."</string>
     <string name="enable_video_calling_dialog_settings" msgid="576528473599603249">"Configurações de rede"</string>
     <string name="enable_video_calling_dialog_close" msgid="7411471282167927991">"Fechar"</string>
     <string name="sim_label_emergency_calls" msgid="4847699229529306397">"Chamadas de emergência"</string>
